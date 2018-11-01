@@ -1,0 +1,11 @@
+{
+  "name": "node-server",
+  "version": "1.0.0",
+  "description": "a node server",
+  "main": "index.js",
+  "scripts": {
+    "test": "test"
+  },
+  "author": "weibo",
+  "license": "ISC"
+}
