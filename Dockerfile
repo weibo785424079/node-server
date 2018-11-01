@@ -6,7 +6,7 @@ RUN pwd \
     && echo i am dockerfule
     
 
-EXPOSE 80
+EXPOSE 7100
 
 
 CMD node index.js
