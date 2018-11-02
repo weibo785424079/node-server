@@ -6,6 +6,6 @@ app.get('/', function (req, res) {
 app.get('/data', function (req, res) {
   res.send('Hello World')
 })
-app.listen('80', function(){
-        console.log('listening on port 80')
+app.listen(7100, function(){
+        console.log('listening on port 7100')
 })
