@@ -5,7 +5,7 @@ WORKDIR /app
 COPY . /app
 
 RUN npm i \
-    node -v
+    && node -v
     
 
 EXPOSE 7100
