@@ -1,9 +1,10 @@
 FROM node
 
+WORKDIR /app
 
-RUN pwd \
-    && npm i \
-    && echo i am dockerfule
+COPY . /app
+
+RUN npm i
     
 
 EXPOSE 7100
