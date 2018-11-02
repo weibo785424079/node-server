@@ -4,7 +4,9 @@ WORKDIR /app
 
 COPY . /app
 
-RUN npm i
+RUN npm i \
+    node -v \
+    npm -v
     
 
 EXPOSE 7100
