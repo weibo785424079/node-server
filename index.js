@@ -5,9 +5,7 @@ app.get('/', function (req, res) {
   res.send('Hello World')
 })
 app.get('/data', function (req, res) {
-  fs.readFile('/weibo/index.txt', function(err,res) {
-    res.send('data:',res)    
-  })
+  res.send('hello weibo')
 })
 app.listen(7100, function(){
         console.log('listening on port 7100')
